@@ -360,6 +360,17 @@
     "repo": "https://github.com/slamdata/purescript-dom-indexed.git",
     "version": "v5.0.0"
   },
+  "dotlang": {
+    "dependencies": [
+      "colors",
+      "console",
+      "generics-rep",
+      "prelude",
+      "strings"
+    ],
+    "repo": "https://github.com/csicar/purescript-dotlang.git",
+    "version": "v1.1.0"
+  },
   "drawing": {
     "dependencies": [
       "canvas",
@@ -663,6 +674,17 @@
     "repo": "https://github.com/purescript/purescript-gen.git",
     "version": "v1.1.1"
   },
+  "generic-graphviz": {
+    "dependencies": [
+      "console",
+      "dotlang",
+      "generics-rep",
+      "graphviz",
+      "prelude"
+    ],
+    "repo": "https://github.com/csicar/purescript-generic-graphviz.git",
+    "version": "v2.0.1"
+  },
   "generics": {
     "dependencies": [
       "arrays",
@@ -698,6 +720,16 @@
     ],
     "repo": "https://github.com/purescript/purescript-graphs.git",
     "version": "v3.0.0"
+  },
+  "graphviz": {
+    "dependencies": [
+      "console",
+      "dotlang",
+      "functions",
+      "prelude"
+    ],
+    "repo": "https://github.com/csicar/purescript-graphviz.git",
+    "version": "v1.0.0"
   },
   "halogen": {
     "dependencies": [
